@@ -1,0 +1,163 @@
+/*
+*******************************
+0. Mobile Media Queries (Max-width)
+*******************************
+*/
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+ 
+  .min-h-160 {
+    min-height: auto;
+  }
+  .swift-bar{
+    width: 328px!important;
+   max-width: 338px!important;
+  }
+ .mb-swift{
+    margin-bottom: 16px!important;
+  }
+  .h-swift-130{
+    max-height: 100px!important;
+  }
+  .job-card-img img{
+    max-height: 95px!important;
+  }
+  .job-card-title {
+    font-size: 14px;
+    line-height: 16.44px;
+ }
+}
+/* Styles for screens between 1366px and 1440px */
+@media(min-width: 1359px)  and (max-width: 1365px)  {
+  /*CSS rules for screens with 1366px to 1440px width */
+ html {
+    font-size: 77%; /*Adjust the font size percentage as per your requirements */
+  }
+}
+
+@media (max-width: 820px) {
+  .swift-d-none{
+    display: none!important;
+  }
+}
+@media (max-width: 820px) and (max-width: 991px) {
+  .swift-d-none{
+    display: none!important;
+  }
+}
+@media (min-width:820.1px) {
+  .sw-d-logo{
+    display: none!important;
+  }
+}
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+
+/*  SWift Recruit Screens Media Queries*/
+
+/* Media query targeting large devices */
+@media (min-width: 1200px) {
+  /* Apply custom class to the desired elements */
+  .mt-rm-0 {
+    margin-top: 0rem!important;
+  }
+  
+}
+
+/* Styles for screens between 1366px and 1440px */
+@media(min-width: 1366px)  and (max-width: 1439px)  {
+  /* CSS rules for screens with 1366px to 1440px width */
+
+  .swift-form-job {
+    max-width: 550px;
+  }
+  .swift-Illustration img {
+      padding-bottom: 40px!important;
+  }
+  .job-card-img img {
+    height: 90px!important;
+  }
+  .h-swift-130 {
+    height: 95px!important;
+  }
+  .jc-t-pad {
+    padding: 12px;
+  }
+  .mb-swift {
+    margin-bottom: 16px!important;
+ }
+ html {
+    font-size: 80%; /* Adjust the font size percentage as per your requirements */
+  }
+}
+
+/* Styles for screens between 1366px and 1440px */
+@media(min-width: 1440px) {
+  /* CSS rules for screens with 1366px to 1440px width */
+  .swift-Illustration img {
+      padding-bottom: 64px!important;
+      max-height: 286.8px;
+  }
+  .swift-detials {
+    max-width: 500px;
+  }
+
+}
+
+/* Styles for screens  400px */
+@media(max-width: 400px) {
+  /* CSS rules for screens with 400px */
+  .swift-form,
+  .swift-form-job {
+      padding: 16px;
+  }
+}
+
+/*
+*******************************
+1. Mobile Media Queries (Min-width)
+*******************************
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
+/*
+*******************************
+2. Custom Media Queries
+*******************************
+*/
+
+@media (min-width: 1920px) {
+}

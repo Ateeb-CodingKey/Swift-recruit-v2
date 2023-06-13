@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show Input Box on Button Click</title>
+  <style>
+    #inputBoxContainer {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="inputBoxContainer">
+    <input type="text" id="inputBox">
+    <!-- Add your desired HTML elements inside the inputBoxContainer -->
+  </div>
+  <button id="showInputButton">Show Input Box</button>
+
+  <script>
+    var inputBoxContainer = document.getElementById('inputBoxContainer');
+    var showInputButton = document.getElementById('showInputButton');
+
+    showInputButton.addEventListener('click', function() {
+      inputBoxContainer.style.display = 'block';
+      showInputButton.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
